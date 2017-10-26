@@ -1,0 +1,45 @@
+.neo_hidden {
+	display: none !important;
+}
+
+#infscr-loading {
+	text-align:center;
+	margin:0 auto;
+	width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+
+#infscr-loading img {
+	width: 28px;
+	height: 28px;
+}
+
+.closed p a span {
+	background: #ccc;
+}
+
+
+#loadinfo {
+	text-align:center;
+	margin:0 auto;
+	width: 100%;
+    height: 40px;
+    overflow: hidden;
+    background: #eeeeee;
+}
+
+#loadinfo img {
+	width: 28px;
+	height: 28px;
+}
+
+.closed p a span {
+	background: #ccc;
+}
+#buttonmember.closed a span {
+	background: #ccc;
+}
+#buttonguest.closed a span {
+	background: #ccc;
+}
