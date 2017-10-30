@@ -41,11 +41,13 @@
     <script src="../../../../static/assets/smartphone/js/html5shiv.js"></script>
     <![endif]-->
     <link href="../../../../static/assets/smartphone/img/favicon.ico" rel="shortcut icon" />
+
     <link href="../../../../static/assets/smartphone/css/common.css" rel="stylesheet" />
+<!--
     <link href="../../../../static/assets/smartphone/css/magnific-popup.css" rel="stylesheet" />
     <link href="../../../../static/assets/smartphone/css/slick.css" rel="stylesheet" />
     <link href="../../../../static/assets/smartphone/css/margin_padding_rw.css" rel="stylesheet" />
-<!--
+
     <script src="../../../../static/assets/smartphone/js/matchMedia.js"></script>
     <script src="../../../../static/assets/smartphone/js/matchMedia.addListener.js"></script>
     <script src="../../../../static/assets/smartphone/js/jquery-1.11.0.min.js"></script>
@@ -79,8 +81,8 @@
   <script src="../../../../static/js/jquery.infinitescroll.js"></script>
 -->
 
-    <link href="../../../../static/css/service/common.css" rel="stylesheet" />
 <!--
+    <link href="../../../../static/css/service/common.css" rel="stylesheet" />
   <script src="../../../../static/js/service/common.js?1477273253"></script>
   <script src="../../../../static/js/service/modal.js"></script>
   <script src="../../../../static/js/service/config.js"></script>
@@ -107,11 +109,9 @@
 </script>
 -->
   	<link href="http://dmae.jp" id="ma_mobile_link_discovery" media="handheld" rel="alternate" />
-  	<link href="../../../../static/assets/smartphone/css/shopDetail/layout.css" rel="stylesheet" />
-  	<!--
-  	<script src="../../../../static/assets/smartphone/js/plugins/jquery.hashchange.js"></script>
-  	-->
 <!--
+  	<link href="../../../../static/assets/smartphone/css/shopDetail/layout.css" rel="stylesheet" />
+  	<script src="../../../../static/assets/smartphone/js/plugins/jquery.hashchange.js"></script>
   	<script src="../../../../static/assets/smartphone/js/shopDetail/function.js"></script>
   	<script type="text/javascript">
 -->
@@ -183,8 +183,135 @@
           "servesCuisine": "ピザ"
         }
     </script>
+    
+    <!-- CSS -->
     <style amp-custom>
-      .shopDetail #topCont01 div.pt_rating_01 p.col01 span {width:78%;}
+.shopDetail #topCont01 .line01 { margin:0 0 6px 0; }
+.shopDetail #topCont01 .line01 .pt_rating_01 > * { font-weight:bold; font-size:16px; color:#fff; }
+.shopDetail #topCont01 .line01 a { /*color:#fff !*//*important;*/color:#fff; }
+.shopDetail #topCont01 .line01 > * { display:inline-block; /**display*/display:inline; /**zoom*/zoom:1; vertical-align:top; width:auto; }
+.shopDetail #topCont01 .line01 > p { font-size:16px; line-height:18px; display:inline-block; /**display*/display:inline; /**zoom*/zoom:1; vertical-align:top; padding:0 0 0 25px; }
+.shopDetail #topCont01 .line01 > p a { display:block; position:relative; padding:0 0 0 28px; }
+.shopDetail #topCont01 .line01 > p a:before { content:''; width:18px; height:18px; position:absolute; left:0; top:50%; margin:-9px 0 0 0; background:URL(../../img/basic_icon_04.png) no-repeat center center; background-size:100% 100%; }
+.shopDetail #topCont01 .line02 { }
+.shopDetail #topCont01 .line02 > * { display:inline-block; /**display*/display:inline; /**zoom*/zoom:1; vertical-align:top; font-weight:bold; font-size:142.9%; line-height:140%; padding:0 25px 0 0; color:#fff; }
+@media screen and (max-width:800px){
+.shopDetail #topCont01 .line01 { margin:0 0 4px 0; }
+.shopDetail #topCont01 .line01 .pt_rating_01 > * { font-size:14px; }
+.shopDetail #topCont01 .line01 > p { font-size:12px; line-height:14px; padding:0 0 0 10px; }
+.shopDetail #topCont01 .line01 > p a { padding:0 0 0 18px; }
+.shopDetail #topCont01 .line01 > p a:before { width:14px; height:14px; margin:-7px 0 0 0; }
+.shopDetail #topCont01 .line02 > * { font-size:107.7%; line-height:130%; padding:0 15px 0 0; }	
+}
+.shopDetail #shopInfo > * {position:relative;}
+.shopDetail #topCont04 { background:#fff; border-bottom:#ccc 1px solid; padding:0 0;
+-webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+-moz-box-shadow:    0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+box-shadow:         0px 2px 8px 0px rgba(0, 0, 0, 0.15); 
+}
+.shopDetail #topCont04 > div { width:1000px; margin:0 auto; text-align:center; letter-spacing:-.40em; }
+.shopDetail #topCont04 p { width:320px; display:inline-block; /**display*/display:inline; /**zoom*/zoom:1; vertical-align:top; letter-spacing:normal; }
+.shopDetail #topCont04 p a { display:block; height:56px; line-height:56px; text-align:center; color:#ec5548; font-size:18px; }
+.shopDetail #topCont04 p a span { position:relative; display:inline-block; /**display*/display:inline; /**zoom*/zoom:1; vertical-align:top; background-repeat:no-repeat; background-position:left center; background-size:30px 30px; padding:0 24px 0 40px; }
+.shopDetail #topCont04 p a span:after { content:''; width:9px; height:16px; position:absolute; top:50%; right:0; background:URL(../../img/arrow_s_01.png) no-repeat center center; background-size:100% 100%; margin:-8px 0 0 0; }
+.shopDetail #topCont04 p.col01 a span { background-image:URL(../../img/nav_icon_05.png); }
+.shopDetail #topCont04 p.col01 a.offElm { color:#aaa; cursor:default; }
+.shopDetail #topCont04 p.col01 a.offElm span { /*background-image:URL(../../img/nav_icon_05_off.png) !*//*important;*/background-image:URL(../../img/nav_icon_05_off.png); }
+.shopDetail #topCont04 p.col01 a.offElm span:after { /*background-image:URL(../../img/arrow_s_02.png) !*//*important;*/background-image:URL(../../img/arrow_s_02.png); }
+@media screen and (max-width:800px){
+.shopDetail #topCont04 > div { width:100%; }
+.shopDetail #topCont04 p { width:100%; }
+.shopDetail #topCont04 p a { height:44px; line-height:44px; font-size:14px; }
+.shopDetail #topCont04 p a span { background-size:22px 22px; padding:0 13px 0 26px; }
+.shopDetail #topCont04 p a span:after { width:7px; height:12px; margin:-5px 0 0 0; }	
+}
+.shopDetail #mainCont01 {  }
+.shopDetail #mainCont01 section .p_ttl-l_03 { width:130px; float:left; padding-bottom:0; } 
+.shopDetail #mainCont01 section > p { float:right; width:100%; margin:0 0 0 -130px; padding:0 0 0 150px; }
+.shopDetail #mainCont01 section .line01 { }
+.shopDetail #mainCont01 section .line01 i { display:inline-block; /**display*/display:inline; /**zoom*/zoom:1; padding:0 0 0 5px; vertical-align:middle; height:22px; line-height:100%; }
+.shopDetail #mainCont01 section .line01 i img { height:19px; width:auto; }
+.shopDetail #mainCont01 section .line02 { }
+.shopDetail #mainCont01 section .line02 i { float:left; padding:0 10px 0 0; line-height:100%; }
+.shopDetail #mainCont01 section .line02 i img { width:auto; height:25px; }
+.shopDetail #mainCont01 section .line02:after { visibility:hidden; display:block; font-size:0; content:"." ; clear:both; height:0; }
+* html .shopDetail #mainCont01 section .line02 { zoom:1; /*\*//*/ height:auto; overflow:hidden; /**/ }
+*:first-child+html .shopDetail #mainCont01 section .line02 { zoom:1; }
+@media screen and (max-width:800px){
+.shopDetail #mainCont01 {
+-webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+-moz-box-shadow:    0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+box-shadow:         0px 2px 8px 0px rgba(0, 0, 0, 0.15); 	
+}
+.shopDetail #mainCont01 section .p_ttl-l_03 { width:95px; } 
+.shopDetail #mainCont01 section > p { margin:0 0 0 -95px; padding:0 0 0 95px; }
+.shopDetail #mainCont01 section .line01 i { padding:0 0 0 3px; vertical-align:baseline; height:14px; }
+.shopDetail #mainCont01 section .line01 i img { height:14px; }
+.shopDetail #mainCont01 section .line02 { padding-top:1px; padding-bottom:1px; }
+.shopDetail #mainCont01 section .line02 i { padding:0 6px 0 0; }
+.shopDetail #mainCont01 section .line02 i img { height:18px; }	
+}
+.shopDetail #contTab { width:1000px; margin:0 auto; padding:0 20px; background:#eee; }
+.shopDetail #contTab li { width:50%; float:left; }
+.shopDetail #contTab li a { display:block; height:60px; line-height:60px; text-align:center; color:#fff; font-weight:bold; padding:0 15px; overflow:hidden; font-size:16px; background:#c5c5c5;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease; 
+}
+.shopDetail #contTab li.active a { background:#ec5548; }
+.shopDetail #contTab.column-1 li { width:100%; }
+.shopDetail #contTab:after { visibility:hidden; display:block; font-size:0; content:"." ; clear:both; height:0; }
+* html .shopDetail #contTab { zoom:1; /*\*//*/ height:auto; overflow:hidden; /**/ }
+*:first-child+html .shopDetail #contTab { zoom:1; }
+@media screen and (max-width:800px){
+.shopDetail #contTab { width:100%; padding:0px; }
+.shopDetail #contTab li a { height:50px; line-height:50px; padding:0 10px; font-size:13px; }
+}
+.shopDetail #mainCont03 .p_card_01 .wrap01 { }
+.shopDetail #mainCont03 .p_card_01 .wrap01 i { width:70px; float:left; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article { width:100%; margin:0 0 0 -70px; padding:0 0 0 90px; float:right; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article h4 { font-size:128.6%; color:#333; font-weight:bold; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article .link { text-decoration:underline }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article .link:hover { text-decoration:none }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article p.date { font-size:85.7%; color:#888; padding:4px 0 0 0; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article .line01 { margin:10px 0 0 0; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article .line01 p { color:#ec5548; font-weight:bold; font-size:16px; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article .line02 { margin:7px 0 0 0; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article .line02 > p { display:inline-block; /**display*/display:inline; /**zoom*/zoom:1; vertical-align:top; color:#555; font-size:100%; padding:0 20px 0 0; line-height:140%; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article .line02 > p span { color:#ec5548; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article section { margin:10px 0 0 0; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article section > h3 { font-size:142.9%; color:#333; font-weight:bold; margin:0 0 4px 0; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article section > p {  }
+.shopDetail #mainCont03 .p_card_01 .shopTtl + .wrap01 article section { /*margin-top:10px !*//*important;*/margin-top:10px; }
+.shopDetail #mainCont03 .p_card_01 .shopTtl { padding-top:0; padding-bottom:0; }
+.shopDetail #mainCont03 .p_card_01 .shopTtl h3 { background:#f0f0f0; color:#333; font-weight:bold; font-size:114.3%; line-height:140%; text-align:center; border:#ccc 1px solid; padding:8px 20px; }
+@media screen and (max-width:800px){
+.shopDetail #mainCont03 .p_card_01 .wrap01 { }
+.shopDetail #mainCont03 .p_card_01 .wrap01 i { width:42px; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article { margin:0 0 0 -42px; padding:0 0 0 52px; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article h4 { font-size:107.7%; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article .link { text-decoration:underline }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article .link:hover { text-decoration:none }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article p.date { font-size:76.9%; padding:2px 0 0 0; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article .line01 { margin:6px 0 0 0; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article .line01 p { font-size:13px; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article .line02 { margin:6px 0 0 0; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article .line02 > p { padding:0 15px 0 0; font-size:92.3%; line-height:130%; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article section { margin:6px 0 0 0; }
+.shopDetail #mainCont03 .p_card_01 .wrap01 article section > h3 { font-size:115.4%; margin:0 0 2px 0; }
+.shopDetail #mainCont03 .p_card_01 .shopTtl + .wrap01 article section { /*margin-top:6px !*//*important;*/margin-top:6px; }
+.shopDetail #mainCont03 .p_card_01 .shopTtl h3 { font-size:100%; line-height:130%; padding:4px 10px; }	
+}
+#couponDetail .pt_modal_01-inner figure { max-width:440px; margin:0 auto; }
+#couponDetail .pt_modal_01-inner p { padding:15px 0 0 0; }
+@media screen and (max-width:800px){
+#couponDetail .pt_modal_01-inner figure { max-width:480px; }
+#couponDetail .pt_modal_01-inner p { padding:10px 0 0 0; }
+}
+
+.shopDetail #topCont01 div.pt_rating_01 p.col01 span { width:78%; }
     </style>
 </head>
 
@@ -519,7 +646,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			
 
 			<!-- /* エラーメッセージモーダル */ -->
-			
+<!--
     <a class="mdl_inline neo_hidden" href="#errorModal" id="show_error_modal"></a>
     <div class="mfp-hide pt_modal_01 type01" id="errorModal">
         <h3>ご確認ください</h3>
@@ -530,6 +657,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <p class="col01"><a class="mfp-close" href="#development=1">OK</a></p>
         </div>
     </div>
+-->
   
 
 			
