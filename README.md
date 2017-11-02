@@ -1,7 +1,7 @@
 # amp_hackathon
 
-AMP“X•ÜÚ×
+AMPåº—èˆ—è©³ç´°
 https://freecraft-pn-t-minato.github.io/amp_hackathon/resources/amp/shopDetail/0000000/
 
-‚¨‚·‚·‚ß“X•Üˆê——
+ãŠã™ã™ã‚åº—èˆ—ä¸€è¦§
 https://freecraft-pn-t-minato.github.io/amp_hackathon/resources/recommend/27127003000/
